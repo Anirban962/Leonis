@@ -1,0 +1,11 @@
+
+
+@font-face {
+    font-family: 'betty_lavearegular';
+    src: url('../fonts/bettylavea-webfont.woff2') format('woff2'),
+         url('../fonts/bettylavea-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /*           font-family: 'Playfair Display', serif;                 */
+    /*           font-family: 'Montserrat', sans-serif;                 */
+}

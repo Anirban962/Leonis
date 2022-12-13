@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="author" content="">
+    <title>Leonis</title>
+    <!--fav icon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Default links -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Plugin Css-->
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- custom links -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/developer.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- sec-hdr start -->
+    <header class="sec-hdr">
+        <div class="custm-container container">
+            <div class="header-wrap">
+                <a href="index.html" class="hdr-logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <nav class="nav_bar">
+                    <ul class="menu-wrap" id="mySidenav">
+                        <a href="javascript:void(0)" class="closebtn d-inline-block d-lg-none"
+                            onclick="closeNav()">&times;</a>
+                        <li>
+                            <a href="index.html" class="nav_link">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                Favorite Tools
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                showcase
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                About us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="career.html" class="nav_link">
+                                Career
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                Request A Quote
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="user-wrap">
+                        <a href="javascript:void(0);">
+                            <svg viewBox="0 0 512 512">
+                                <path
+                                    d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);">
+                            <svg viewBox="0 0 448 512">
+                                <path
+                                    d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="nav-button d-inline-block d-lg-none" onclick="openNav()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- sec-hdr end -->
+
+    <!-- home-banner start -->
+    <section class="home-banner banner">
+        <div class="container custm-container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="banner-content">
+                        <h6>Leonis Shirts & Favorites</h6>
+                        <h1>Apparel <span class="bnnr-cntn">
+                                Support
+                            </span>
+                            <span class="common-fnt">Tools</span>
+                        </h1>
+                        <a href="javascript:void(0);" class="banner-btn basic-btn">
+                            READ MORE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home-banner end -->
+
+    <!-- apparel start -->
+    <section class="apparel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="apparel-title text-center">
+                        <h6>Apparel Support Tools</h6>
+                        <h5>We Listen,Imagine, Achieve
+                            and Deliver <span class="common-fnt">to</span> World.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrap position-relative">
+                <!-- <div class="bg-line"></div> -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 apparel-wrap">
+                        <div class="apparel-content-wrapper">
+                            <div class="img-wrap">
+                                <figure>
+                                    <img src="images/appreal-icon-1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <figcaption>
+                                <h6>Listening</h6>
+                                <p>To our customer’s perspective to further understand their clothing woes.</p>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 apparel-wrap">
+                        <div class="apparel-content-wrapper">
+                            <div class="img-wrap">
+                                <figure>
+                                    <img src="images/appreal-icon-2.jpg" alt="">
+                                </figure>
+                            </div>
+                            <figcaption>
+                                <h6>Imagining</h6>
+                                <p>The possibilities using research and development, we were able pinpoint what can
+                                    improve.</p>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 apparel-wrap">
+                        <div class="apparel-content-wrapper">
+                            <div class="img-wrap">
+                                <figure>
+                                    <img src="images/appreal-icon-3.jpg" alt="">
+                                </figure>
+                            </div>
+                            <figcaption>
+                                <h6>Achieving</h6>
+                                <p>A standard and ability within our company by increasing our goal for
+                                    convenience. </p>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 apparel-wrap">
+                        <div class="apparel-content-wrapper">
+                            <div class="img-wrap">
+                                <figure>
+                                    <img src="images/appreal-icon-4.jpg" alt="">
+                                </figure>
+                            </div>
+                            <figcaption>
+                                <h6>Delivering</h6>
+                                <p>To all corners of the world swiftly, with our digital capabilities, an
+                                    invention of delight.</p>
+                            </figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- apparel end -->
+
+    <!-- commitment start -->
+    <section class="commitment">
+        <figure class="top-arrow">
+            <img src="images/commitment-sec-arrow.png" alt="">
+        </figure>
+        <div class="container custm-container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="content-wrap">
+                        <h5>commitment</h5>
+                        <h6>Increasing the <span>amount of customers and the benefit of stores.</span> </h6>
+                        <a href="javascript:void(0);" class="basic-btn">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p>We, Leonis Japan, develop apparel support tools for quick and easy garment care with experience
+                        selling in the US, Europe and Asia. Leonis believes this simplicity can aid anyone to be more
+                        mindful of their textiles and be pleased with the things they use every day; clothes.</p>
+                </div>
+            </div>
+            <figure class="bottom-img text-center">
+                <img src="images/commitment-img.png" alt="">
+            </figure>
+            <div class="container">
+            </div>
+        </div>
+    </section>
+    <!-- commitment end -->
+
+    <!-- difference-sec start -->
+    <section class="difference-sec">
+        <div class="container custm-container">
+            <div class="difference-wrapper">
+                <figure class="sec-arrow">
+                    <img src="images/difference-sec-arrow.png" alt="">
+                </figure>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="sec-title">
+                            <h5>Welcome To Our Difference!</h5>
+                            <h2>We at Leonis
+                                <span class="common-fnt">believe</span>
+                                the foundation
+                                of our partnerships
+                                will foster
+                                prosperity and
+                                benefit for all.</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card-wrap">
+                                    <figure>
+                                        <img src="images/differences-card-img-1.png" alt="">
+                                    </figure>
+                                    <figcaption>
+                                        <h6>Products</h6>
+                                        <p>We’ve taken your old favorites, figured out how to
+                                            make them more useful, and remade them for you.</p>
+                                        <a href="javascript:void(0);" class="basic-btn">
+                                            read more
+                                        </a>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card-wrap">
+                                    <figure>
+                                        <img src="images/differences-card-img-2.png" alt="">
+                                    </figure>
+                                    <figcaption>
+                                        <h6>Service</h6>
+                                        <p>Our business model will integrate your store online seamlessly with our
+                                            support. </p>
+                                        <a href="javascript:void(0);" class="basic-btn">
+                                            read more
+                                        </a>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card-wrap">
+                                    <figure>
+                                        <img src="images/differences-card-img-3.png" alt="">
+                                    </figure>
+                                    <figcaption>
+                                        <h6>Speed</h6>
+                                        <p>Receive your order within 3-5 business days.
+                                            NO minimum orders. Get free shipping on any orders over $300.</p>
+                                        <a href="javascript:void(0);" class="basic-btn">
+                                            read more
+                                        </a>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card-wrap">
+                                    <figure>
+                                        <img src="images/differences-card-img-4.png" alt="">
+                                    </figure>
+                                    <figcaption>
+                                        <h6>Collaboration</h6>
+                                        <p>Speak to our experts through email, slack or any other channel available. Get
+                                            support in multiple languages thanks to our diverse staff. </p>
+                                        <a href="javascript:void(0);" class="basic-btn">
+                                            read more
+                                        </a>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- difference-sec end -->
+
+    <!-- news-sec start -->
+    <section class="news-sec">
+        <div class="container">
+            <div class="news-title">
+                <h6>News</h6>
+                <a href="javascript:void(0);" class="basic-btn">read more</a>
+            </div>
+            <div class="blog-sec">
+                <div class="row">
+                    <div class="col-lg-6 col-md-10 mx-auto">
+                        <div class="blog-wrap">
+                            <figure>
+                                <img src="images/blog-img-1.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>20 jan, 2022</p>
+                                <div class="left-bottom-content">
+                                    <h6>Women naturally enjoy buying new things.</h6>
+                                    <a href="javascript:void(0);" class="basic-btn">read more</a>
+                                </div>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10 mx-auto">
+                        <div class="blog-wrap blog-right">
+                            <figure>
+                                <img src="images/blog-img-2.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>20 jan, 2022</p>
+                                <h6>Women naturally enjoy buying new things.</h6>
+                                <a href="javascript:void(0);" class="basic-btn">read more</a>
+                            </figcaption>
+                        </div>
+                        <div class="blog-wrap blog-right">
+                            <figure>
+                                <img src="images/blog-img-3.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>20 jan, 2022</p>
+                                <h6>Women naturally enjoy buying new things.</h6>
+                                <a href="javascript:void(0);" class="basic-btn">read more</a>
+                            </figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news-sec end -->
+
+    <!-- showcase start -->
+    <section class="showcase">
+        <div class="container">
+            <div class="showcase-title">
+                <h6><span class="common-fnt">Online</span>Showcase</h6>
+                <p>We strive to develop new, advanced materials to accommodate our customers' needs, no matter where in
+                    the world they may be. At the same time, we aim to provide craftsmanship with heartfelt attention
+                    and sublime expertise to the very last detail.</p>
+            </div>
+            <div class="showcase-slider">
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-1.png" alt="" class="mx-auto">
+                        <h6>Iron-on Mending Tape</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-2.png" alt="" class="mx-auto">
+                        <h6>Sewing Kit</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-3.png" alt="" class="mx-auto">
+                        <h6>Thread needle</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-4.png" alt="" class="mx-auto">
+                        <h6>Clothing Care</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-1.png" alt="" class="mx-auto">
+                        <h6>Iron-on Mending Tape</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-2.png" alt="" class="mx-auto">
+                        <h6>Sewing Kit</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-3.png" alt="" class="mx-auto">
+                        <h6>Thread needle</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrap text-center">
+                        <img src="images/showcase-slider-img-4.png" alt="" class="mx-auto">
+                        <h6>Clothing Care</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- showcase end -->
+
+    <!--about sec start-->
+    <section class="abt">
+        <div class="container custm-container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h2 class="abt_txt_wrapper">
+                        <span class="abt_txt common-fnt">About</span>
+
+                        Leonis Shirts
+                        And Favorites
+
+                    </h2>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="abt_side_txt">
+                        Women naturally enjoy buying new things. Our body shapes and preferences are as different as our
+                        fingerprints. Our great pleasure is to devote all of our abilities to satisfy their wants.
+                        Leonis constantly works to bring you fashion innovation. One element of this is carefully
+                        reviewing changes in lifestyles, technological developments and collaboration from a female
+                        perspective that transcends national borders.
+                    </h4>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--about sec end-->
+
+    <!--company info start-->
+    <section class="comp_info">
+        <div class="container custm-container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="company_img_wrapper">
+                        <img src="images/comp_banner.png" alt="">
+                    </div>
+
+                    <div class="company_subimg_wrapper">
+                        <img src="images/banner_below_grp.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="comp_txt_wrapper">
+                        <span class="comp_txt common-fnt">Company</span>
+
+                        Information
+
+                    </h2>
+                    <p class="comp_sub_txt_wrapper">leonis co, ltd.</p>
+
+                    <div class="comp_para">
+                        <p>
+                            The 1.4 magnitude star a Leonis, located in the “chest”of the constellation Leo “the lion”,
+                            is known as Regulus or “the little king”. In Latin, it is also called “the lion’s heart”. Of
+                            the 21 first-magnitude stars in the galaxy, this is the only one that lies on the ecliptic.
+                            THe sun shines directly on this star every year from August 22nd and 23rd.
+                        </p>
+
+                        <div class="comp_para_info">
+                            <div class="left_txt">
+                                <p>founded:</p>
+                                <p>december 14th, 1971</p>
+                            </div>
+
+                            <div class="right_txt">
+                                <p>addresses:</p>
+                                <p>591-8034 Mozuryonancho</p>
+                                <p>3-56, Kita Ku, Sakai, Osaka</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <!--company value wrapper-->
+            <div class="row co-val-wrapper">
+                <div class="col-md-6 col-lg-3">
+                    <div class="co_ico_round">
+                        <img src="images/handshake_co.png" alt="">
+                    </div>
+
+                    <div class="co_ico_round_txt_wrapper">
+                        <h5 class="title_txt_co">
+                            Greetings
+                        </h5>
+                        <p>
+                            We are Leonis Japan, a specialist in quick and easy garment care with experience selling in
+                            the America, Europe and Asia countries.
+                            Our aim is to strive to develop new, advanced materials to accommodate our customer’s needs,
+                            no matter where in the world they may be.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="co_ico_round">
+                        <img src="images/target_co.png" alt="">
+                    </div>
+
+                    <div class="co_ico_round_txt_wrapper">
+                        <h5 class="title_txt_co">
+                            Our Vision
+                        </h5>
+                        <p>
+                            We propose new products to meet the needs of our customers around the world.
+                            We Increase the amount of customers and the benefit of stores by meeting the needs of our
+                            customers around the world with advanced products.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="co_ico_round">
+                        <img src="images/mountain_co.png" alt="">
+                    </div>
+
+                    <div class="co_ico_round_txt_wrapper">
+                        <h5 class="title_txt_co">
+                            Our Mission
+                        </h5>
+                        <p>
+                            We listen, imagine, achieve and deliver to the world.
+                            We are a Japanese company that proposed and brought forth a new wave of clothing care.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="co_ico_round">
+                        <img src="images/diamond_co.png" alt="">
+                    </div>
+
+
+                    <div class="co_ico_round_txt_wrapper">
+                        <h5 class="title_txt_co">
+                            Our Value
+                        </h5>
+                        <p>
+                            Using these 4 important factors, we, a Japanese company, created “Apparel Support
+                            Tools”.Listening to our customer’s perspectives to further understand their clothing woes
+                            .Imagining the possibilities using research and development, we were able to pinpoint what
+                            can improve.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="logo_arrow">
+            <img src="images/logo-sec-arrow.png" alt="">
+        </div>
+    </section>
+    <!--company info end-->
+
+    <!--logo sec-->
+    <section class="logo_sec">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="our_logo_wrapper">
+                    <div class="left-txt_info">
+                        <h3>our
+                            <span class="common-fnt">logo</span>
+                        </h3>
+                        <p>
+                            <span><img src="images/quote.png" alt=""></span>
+                            Dog and woman walking in the park
+                            <span><img src="images/quote.png" alt=""></span>
+                        </p>
+                        <h5 class="logo_sec_custmr">
+                            by Ms Inslee Fariss
+                        </h5>
+                        <h6>
+                            New York City based artist and illustrator
+                        </h6>
+                    </div>
+                    <div class="right_info">
+                        <img src="images/logo_side_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="logo_big_arrow">
+                <img src="images/history-sec-arrow.png" alt="">
+            </div>
+        </div>
+
+
+    </section>
+    <!--logo sec ends-->
+
+    <!--history sec starts-->
+    <section class="history-sec">
+        <div class="container position-relative">
+            <figure class="history-cycle">
+                <img src="images/history_cycle.png" alt="">
+            </figure>
+            <div class="sec-title">
+                <h6><span class="common-fnt">Our</span>History</h6>
+            </div>
+            <div class="history-slider">
+                <div class="item">
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-lg-4 col-md-5">
+                            <figcaption>
+                                <p>1971 Leonis was established. Mainly supplied textile materials, elastic braid and
+                                    webbing. Provided home sewing supplies wholesale to OEMs.</p>
+                            </figcaption>
+                        </div>
+                        <div class="col-xl-5 col-md-7 ">
+                            <figure>
+                                <img src="images/history-slider-img-1.jpg" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-lg-4 col-md-5">
+                            <figcaption>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero amet eius deserunt
+                                    dolorum nihil perspiciatis omnis, ipsam eligendi delectus nobis!</p>
+                            </figcaption>
+                        </div>
+                        <div class="col-xl-5 col-md-7">
+                            <figure>
+                                <img src="images/history-slider-img-2.jpg" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--history sec end-->
+
+
+    <!-- testimonial slider start -->
+    <section class="testimonial">
+        <div class="container custm-container">
+            <h5>Testimonial</h5>
+            <div class="testimonial-slider">
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-1.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-2.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-3.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-1.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-2.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-3.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial slider end -->
+
+    <!--footer-->
+    <footer class="footer-main">
+        <div class="container custm-container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="foo_logo">
+                        <a href="#">
+                            <img src="images/footer_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="foo_txt">
+                        <p>
+                            We Listen, Imagine, Achieve and Deliver to the World.
+                        </p>
+                    </div>
+                    <div class="foo_social_ico">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="row custom_rw">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="foo_menu_wrapper">
+                                <h6>
+                                    explore
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Favorite Tools
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Showcase
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Career
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Request A Quote
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="foo_menu_wrapper">
+                                <h6>
+                                    contact us
+
+                                </h6>
+                                <ul>
+                                    <li> <i class="fa-solid fa-location-dot"></i>
+                                        <a href="#" class="text-capitalize">
+                                            3-56 Mozuryonancho,
+                                            Kita-ku, Sakai, Osaka
+                                            591-8034 JAPAN
+                                        </a>
+                                    </li>
+
+                                    <li><i class="fa-solid fa-phone"></i>
+                                        <a href="#">
+                                             +81-72-278-5941
+                                        </a>
+                                    </li>
+
+                                    <li><i class="fa-solid fa-envelope"></i>
+                                        <a href="#">
+                                             cs@leonis.co.jp
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="foo_menu_wrapper">
+                                <h6>
+                                    newsletter
+                                </h6>
+                                <!-- <ul>
+                                    <li class="foo_mail">
+                                        <p> Email Address </p>
+                                        <a href="#" class="text-capitalize">
+                                            <i class="fa-solid fa-envelope mail_ico"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <h5> Sign up for our latest news & articles.
+                                            We won’t give you spam emails.</h5>
+                                    </li>
+                                </ul> -->
+                                <form action="#">
+                                    <div class="form-wrap">
+                                        <input type="email" placeholder="Email Address">
+                                    <div class="input-btn-wrap">
+                                        <input type="button">
+                                    </div>
+                                    </div>
+                                </form>
+                                <h5> Sign up for our latest news & articles.
+                                    We won’t give you spam emails.</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row copyright_wrapper">
+                <div class="col-md-6">
+                    <p>Copyright © 2022, LEONIS SHIRTS & FAVORITES.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-md-right">
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                        <span>|</span>
+                        <a href="#">Terms & Conditions</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+
+    <!-- <div class="side-btn-wrap">
+        <button class="side-btn">Request a Quote</button>
+    </div> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/88e698a514.js" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

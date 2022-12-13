@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="author" content="">
+    <title>Leonis</title>
+    <!--fav icon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Default links -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Plugin Css-->
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- custom links -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/developer.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- sec-hdr start -->
+    <header class="sec-hdr">
+        <div class="custm-container container">
+            <div class="header-wrap">
+                <a href="index.html" class="hdr-logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <nav class="nav_bar">
+                    <ul class="menu-wrap" id="mySidenav">
+                        <a href="javascript:void(0)" class="closebtn d-inline-block d-lg-none"
+                            onclick="closeNav()">&times;</a>
+                        <li>
+                            <a href="index.html" class="nav_link">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                Favorite Tools
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                showcase
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                About us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="career.html" class="nav_link">
+                                Career
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="nav_link">
+                                Request A Quote
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="user-wrap">
+                        <a href="javascript:void(0);">
+                            <svg viewBox="0 0 512 512">
+                                <path
+                                    d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);">
+                            <svg viewBox="0 0 448 512">
+                                <path
+                                    d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="nav-button d-inline-block d-lg-none" onclick="openNav()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- sec-hdr end -->
+
+    <!-- product-listing-banner start -->
+    <section class="product-listing-banner banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/product-listing-banner.png" alt="banner-img">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/product-listing-banner.png" alt="banner-img">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/product-listing-banner.png" alt="banner-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product-listing-banner end -->
+
+    <!-- product-listing items start -->
+    <section class="product-listing-items">
+        <div class="container custm-container-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-items-left-panel">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    One Action Hem and Seal
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Authentic Quality in Can
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Tracing Pen with Superior Lines
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Natural Carnauba Wax-Based Pen
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    110 yards winded around the world's smallest spools
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Natural and Ironfree Wrinkle Remover
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Anti-Static and Fiber Preserving Agent
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="product-items-right-panel">
+                        <div class="panel-title">
+                            <p><span class="start-qoute">"</span> It goes without saying that the things you use every
+                                day, should, of course, be stylish and cute. More than that, though, they need to be
+                                long-lasting tools, designed to combine ease of use with quality and functionality that
+                                you can rely on. <span class="end-quote">"</span></p>
+                            <a href="#">product showcase</a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-1.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>One action hem and seal</h5>
+                                        <div class="details-wrap">
+                                            <h6>Iron-on Instant Hem Tape</h6>
+                                            <p>Unlike common fusible web tape, Iron-on Instant Hem Tape is a knitted
+                                                tape that seals in frayed ends, supports the structure of the cloth and
+                                                prevents unsightly bumps. Traditional hemming tape hardens but our tape
+                                                is flexible. This allows the hem to move naturally with the rest of the
+                                                fabric. <a href="#">read more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-2.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>Authentic Quality in a Can</h5>
+                                        <div class="details-wrap">
+                                            <h6>Sewing Kit</h6>
+                                            <p>The Compact kit and Deluxe Kit has all the tools specific to clothing
+                                                repairs and light enough to fit in the palm of your hand. Necessary
+                                                items such as button attachment are compactly arranged in cans with a
+                                                diameter of 10 cm. It's not as small as you usually carry, but it's just
+                                                a good thing to have somewhere ready for something <a href="#">read
+                                                    more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-3.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>550 yards Guarantee Pen with Superior Lines</h5>
+                                        <div class="details-wrap">
+                                            <h6>Water Erasable Marking Pen</h6>
+                                            <p>The firm pen tip allows you to draw precise lines without much effort.
+                                                The pen is guaranteed 550 yds of ink usage. A short pen that ensures
+                                                entire use of the pen that extends usage and avoids drying out. Get
+                                                accurate lines with every stroke due to the thin tip for all your
+                                                intricate project <a href="#">read more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-4.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>Natural Carnauba Wax-based Pen</h5>
+                                        <div class="details-wrap">
+                                            <h6>Zipper Wax Pen</h6>
+                                            <p>The non-corrosive lubricant pen loosens up of all kinds of metal and
+                                                plastic zipper goods. Quickly smooth out any stuck zippers with little
+                                                effort or time. Flexible use on any type of metal and plastic zipper or
+                                                snaps. Designed for portability <a href="#">read more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-5.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>110 yards Winded Around the World’s Smallest Spools</h5>
+                                        <div class="details-wrap">
+                                            <h6>Sewing Thread Kit</h6>
+                                            <p>We made our spool small with the right adjustments. Unlike other spools,
+                                                our spool has a thin center, saving space and still being just as
+                                                long.30 frequently used assorted colors, polyester threads offering you
+                                                a seamless sewing performance <a href="#">read more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-6.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>Natural and Iron-free Wrinkle Remover</h5>
+                                        <div class="details-wrap">
+                                            <h6>Wrinkle Releaser & Deodorizer</h6>
+                                            <p>Deodorize your clothing in every spray with natural bamboo extract that
+                                                makes your cloths refreshing. Smoothen out wrinkles in the matter of
+                                                minutes. Safe to use anywhere, around children, and times where there is
+                                                no access to electricity <a href="#">read more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-wrap">
+                                    <div class="img-wrap">
+                                        <figure>
+                                            <img src="images/product-item-logo-img.jpg" alt="">
+                                        </figure>
+                                        <img src="images/product-item-img-7.jpg" alt="">
+                                    </div>
+                                    <div class="content-wrap">
+                                        <h5>Anti-Static and Fiber Preserving Agent</h5>
+                                        <div class="details-wrap">
+                                            <h6>Static Guard & Anti-Pilling</h6>
+                                            <p>Triple the threat to all these inconvenient clothing troubles. Reduce
+                                                static electricity and improve the look of your outfit. Protect yourself
+                                                from dust, pollen and other allergens from following you back home.
+                                                Reduce static electricity and improve the look of your outfit 
+                                                <a href="#">read more</a></p>
+                                        </div>
+                                        <div class="btn-wrap">
+                                            <a href="#">Request a quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product-listing items end -->
+
+    <!-- testimonial slider start -->
+    <section class="testimonial">
+        <div class="container custm-container">
+            <h5>Testimonial</h5>
+            <div class="testimonial-slider">
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-1.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-2.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-3.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-1.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-2.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-content">
+                        <figure>
+                            <img src="images/testimonial-charecter-3.png" alt="">
+                        </figure>
+                        <figcaption>
+                            <h6>Maximus pretium vel non</h6>
+                            <div class="ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</p>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial slider end -->
+
+
+    <!--footer-->
+    <footer class="footer-main">
+        <div class="container custm-container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="foo_logo">
+                        <a href="#">
+                            <img src="images/footer_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="foo_txt">
+                        <p>
+                            We Listen, Imagine, Achieve and Deliver to the World.
+                        </p>
+                    </div>
+                    <div class="foo_social_ico">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="row custom_rw">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="foo_menu_wrapper">
+                                <h6>
+                                    explore
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Favorite Tools
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Showcase
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Career
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Request A Quote
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="foo_menu_wrapper">
+                                <h6>
+                                    contact us
+
+                                </h6>
+                                <ul>
+                                    <li> <i class="fa-solid fa-location-dot"></i>
+                                        <a href="#" class="text-capitalize">
+                                            3-56 Mozuryonancho,
+                                            Kita-ku, Sakai, Osaka
+                                            591-8034 JAPAN
+                                        </a>
+                                    </li>
+
+                                    <li><i class="fa-solid fa-phone"></i>
+                                        <a href="#">
+                                             +81-72-278-5941
+                                        </a>
+                                    </li>
+
+                                    <li><i class="fa-solid fa-envelope"></i>
+                                        <a href="#">
+                                             cs@leonis.co.jp
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="foo_menu_wrapper">
+                                <h6>
+                                    newsletter
+                                </h6>
+                                <!-- <ul>
+                                    <li class="foo_mail">
+                                        <p> Email Address </p>
+                                        <a href="#" class="text-capitalize">
+                                            <i class="fa-solid fa-envelope mail_ico"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <h5> Sign up for our latest news & articles.
+                                            We won’t give you spam emails.</h5>
+                                    </li>
+                                </ul> -->
+                                <form action="#">
+                                    <div class="form-wrap">
+                                        <input type="email" placeholder="Email Address">
+                                    <div class="input-btn-wrap">
+                                        <input type="button">
+                                    </div>
+                                    </div>
+                                </form>
+                                <h5> Sign up for our latest news & articles.
+                                    We won’t give you spam emails.</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row copyright_wrapper">
+                <div class="col-md-6">
+                    <p>Copyright © 2022, LEONIS SHIRTS & FAVORITES.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-md-right">
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                        <span>|</span>
+                        <a href="#">Terms & Conditions</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/88e698a514.js" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

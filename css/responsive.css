@@ -1,0 +1,1672 @@
+@media (min-width: 2024px) {
+  .banner {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1350px) {
+  .custm-container {
+    max-width: 1315px;
+  }
+
+  .custm-container-2 {
+    max-width: 1460px;
+  }
+
+  .commitment .content-wrap {
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 1349px) {
+  .sec-hdr .header-wrap .nav_bar .user-wrap a {
+    margin-left: 20px;
+  }
+
+  .sec-hdr .header-wrap .nav_bar .menu-wrap li {
+    margin: 0 15px;
+  }
+
+  .difference-sec .difference-wrapper .sec-arrow {
+    left: 15%;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption p {
+    margin: 25px 0 10px;
+    min-height: 140px;
+  }
+
+  .history-sec .history-slider figure {
+    margin: 0 -40px 0 35px;
+  }
+
+  .history-sec .sec-title {
+    margin-bottom: -120px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .sec-hdr .header-wrap {
+    padding: 45px 0;
+  }
+
+  .sec-hdr .header-wrap .hdr-logo {
+    width: 155px;
+    height: 155px;
+  }
+
+  .sec-hdr .header-wrap .nav_bar .menu-wrap li {
+    margin: 0 10px;
+  }
+
+  .sec-hdr .header-wrap .nav_bar .menu-wrap li a.nav_link {
+    font-size: 15px;
+  }
+
+  .sec-hdr .header-wrap .nav_bar .user-wrap a {
+    margin-left: 15px;
+  }
+
+  .apparel .apparel-title h5 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .apparel .apparel-title h5 span {
+    font-size: 100px;
+  }
+
+  .apparel .apparel-wrap:first-child .apparel-content-wrapper .img-wrap::before {
+    right: -35%;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h2 {
+    font-size: 55px;
+    line-height: 67px;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption {
+    padding: 30px 0 60px 20px;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption p {
+    margin: 15px 0 0px;
+    min-height: 175px;
+  }
+
+  .news-sec .blog-sec .blog-wrap figcaption {
+    padding: 25px 40px 25px 20px;
+  }
+
+  .news-sec .blog-sec .blog-wrap figcaption h6 {
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    max-width: 65%;
+  }
+
+  .news-sec .blog-sec .blog-wrap.blog-right figcaption h6 {
+    padding-bottom: 15px;
+  }
+
+  .showcase .showcase-slider .slick-track .item {
+    width: 240px;
+  }
+
+  .abt .abt_txt_wrapper {
+    max-width: 100%;
+  }
+  /*added 15th July*/
+  .abt {
+    background-color: #f2f4f5;
+    padding-bottom: 200px;
+}
+
+  .comp_info .company_subimg_wrapper {
+    right: -60%;
+    bottom: -30%;
+    max-width: 520px;
+  }
+  /*added 15th July*/
+  .comp_info .co-val-wrapper .co_ico_round_txt_wrapper h5{
+    padding: 30px 0 35px;
+  }
+  /*added 15th July*/
+  .comp_info .logo_arrow {
+    margin-right: 18%;
+    margin-top: -270px;
+  }
+
+  .logo_sec .our_logo_wrapper .right_info::after {
+    right: 80%;
+    bottom: -85%;
+  
+}
+
+  .comp_info .comp_para {
+    margin-right: 0;
+  }
+
+  .comp_info .comp_txt_wrapper {
+    margin-right: 0;
+  }
+
+  .history-sec {
+    overflow: visible;
+  }
+
+  .history-sec .history-slider figure {
+    margin: 0 -10px 0 35px;
+  }
+
+  .history-sec .slick-list {
+    overflow: hidden;
+  }
+
+  .logo_sec .logo_big_arrow {
+    left: 0px;
+    bottom: -120%;
+    max-width: 45%;
+  }
+
+  .history-sec .sec-title {
+    margin-bottom: -100px;
+  }
+
+  .history-sec .sec-title h6 span {
+    margin-left: -50px;
+  }
+
+  .history-sec .history-cycle {
+    right: 240px;
+    max-width: 40%;
+  }
+
+  .history-sec::before {
+    width: 60%;
+  }
+
+  .history-sec {
+    padding: 100px 0 170px;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap input[type="email"] {
+    width: 100%;
+  }
+
+
+  /* carrer page */
+  .career_bg_wrap h1 span:first-child {
+    font-size: 78px;
+    line-height: 93px;
+  }
+
+  .career_bg_wrap {
+    margin-left: 76px;
+  }
+
+  .career_bg_wrap h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .carrer_banner {
+    padding: 141px 0 120px;
+  }
+
+  .looking_wrap h2 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .looking {
+    padding: 144px 0 134px;
+  }
+
+  .culture_innr h6 span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .culture_innr h2 {
+    font-size: 50px;
+    line-height: 66px;
+    padding: 23px 0 25px;
+  }
+
+  .culture_innr {
+    padding-bottom: 59px;
+  }
+
+  .culture_icon_wrp {
+    margin-left: 15px;
+  }
+
+  .for_you_inr h2 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .for_you_slide {
+    padding-top: 80px;
+  }
+
+  .for_you_inner_text h4 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .for_you_inner_text h4::after {
+    right: auto;
+    width: 54px;
+    height: 54px;
+    left: 385px;
+    bottom: -35px;
+  }
+
+  .for_you {
+    padding: 116px 0 105px;
+  }
+
+  .view_open_wrap_hdng h2 {
+    font-size: 50px;
+    line-height: 66px;
+  }
+
+  .view_open_wrap_hdng {
+    padding-bottom: 86px;
+  }
+
+  .view_open_wrap_left {
+    padding: 45px 0;
+  }
+
+  .view_open_wrap_right {
+    padding: 45px 0 45px 60px;
+  }
+}
+
+
+
+
+
+/*991px*/
+@media (max-width: 991px) {
+  .sec-hdr .header-wrap {
+    padding: 40px 0;
+  }
+
+  .sec-hdr nav .menu-wrap {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 120px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+  }
+
+  .sec-hdr nav .menu-wrap .closebtn {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-size: 45px;
+    color: #000;
+    margin: 0;
+  }
+
+  .sec-hdr nav .nav-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 30px;
+  }
+
+  .sec-hdr nav .nav-button i {
+    font-size: 30px;
+    color: #000;
+  }
+
+  .sec-hdr .header-wrap .nav_bar .menu-wrap li {
+    display: block;
+    padding: 20px 40px;
+    margin: 0;
+  }
+
+  .comp_info .comp_txt {
+    font-size: 75px;
+    letter-spacing: -2px;
+    line-height: 80px;
+    display: block;
+    margin-left: -32px;
+    transform: translateY(10px);
+}
+.comp_info .comp_txt_wrapper {
+  font-size: 60px;
+  margin-top: 150px;
+  letter-spacing: -2px;
+  line-height: 68px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  margin-left: 40px;
+  margin-right: 70px;
+}
+
+.comp_info .comp_sub_txt_wrapper {
+  margin-left: 42px;
+  margin-right: 0;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 48px;
+}
+.comp_info .comp_para {
+  margin-left: 44px;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+.comp_info .company_subimg_wrapper {
+  right: -60%;
+  bottom: 3%;
+  max-width: 400px;
+}
+.comp_info .comp_para_info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 4px;
+  padding-top: 40px;
+}
+
+.logo_sec .our_logo_wrapper .right_info::after {
+  right: 50%;
+  bottom: -90%;
+}
+
+.comp_info .logo_arrow {
+  margin-right: 30%;
+  margin-top: -270px;
+}
+
+.logo_sec .our_logo_wrapper .left-txt_info h3 {
+  font-size: 45px;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+.logo_sec .our_logo_wrapper .left-txt_info h3>span {
+  font-size: 78px;
+  letter-spacing: -2px;
+  line-height: 85px;
+}
+.logo_sec .our_logo_wrapper .left-txt_info .logo_sec_custmr{
+  margin-left: 0;
+}
+.logo_sec .our_logo_wrapper .left-txt_info h6{
+  margin-left: 0;
+}
+
+.comp_info .co-val-wrapper {
+  margin-top: 90px;
+}
+.comp_info .co-val-wrapper .co_ico_round_txt_wrapper p{
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+
+  .home-banner {
+    padding: 85px 0 75px;
+  }
+
+  .home-banner .banner-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+  }
+
+  .home-banner .banner-content h1 span.common-fnt {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  footer.footer-main .foo_logo {
+    margin: 0px 0 30px;
+  }
+
+  .apparel {
+    padding: 80px 0 120px;
+  }
+
+  .apparel .apparel-title h5 {
+    font-size: 50px;
+    line-height: 65px;
+    margin-bottom: 50px;
+  }
+
+  .apparel .apparel-title h5 span {
+    font-size: 80px;
+    padding: 0 10px 0px 25px;
+  }
+
+  .apparel .apparel-content-wrapper figure {
+    width: 110px;
+    height: 110px;
+  }
+
+  .apparel .apparel-content-wrapper figure img {
+    max-width: 40%;
+  }
+
+  .apparel .apparel-wrap .apparel-content-wrapper figcaption {
+    padding-top: 40px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .apparel .apparel-wrap .apparel-content-wrapper figcaption h6 {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    padding-bottom: 15px;
+  }
+
+  .commitment {
+    padding-top: 80px;
+  }
+
+  .commitment .top-arrow {
+    width: 100px;
+  }
+
+  .commitment .content-wrap h6 span {
+    display: inline;
+  }
+
+  .commitment .content-wrap h6 {
+    font-size: 45px;
+    line-height: 58px;
+    padding-bottom: 20px;
+  }
+
+  .commitment p {
+    padding-top: 20px;
+  }
+
+  .difference-sec {
+    padding-bottom: 20px;
+  }
+
+  .difference-sec .difference-wrapper {
+    padding-top: 20px;
+  }
+
+  .commitment .bottom-img {
+    padding-top: 20px;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h5 {
+    padding: 60px 0 20px;
+  }
+
+  .difference-sec .difference-wrapper .sec-arrow {
+    display: none;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h2 {
+    font-size: 40px;
+    line-height: 56px;
+    padding-bottom: 20px;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption {
+    padding: 20px 0 40px 20px;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h2 span {
+    font-size: 85px;
+    margin-left: 0;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption p {
+    margin: 10px 0 0px;
+    min-height: 100px;
+  }
+
+  .news-sec {
+    padding: 80px 0 60px;
+  }
+
+  .news-sec .news-title h6 {
+    font-size: 50px;
+  }
+
+  .news-sec .blog-sec .blog-wrap.blog-right {
+    margin: 20px 0 0;
+  }
+
+  .showcase {
+    padding: 30px 0 70px;
+  }
+
+  .showcase .slick-list {
+    width: auto;
+  }
+
+  .showcase .showcase-title h6 {
+    font-size: 45px;
+    line-height: 60px;
+    padding-bottom: 45px;
+  }
+
+  .showcase .showcase-title h6 span {
+    font-size: 65px;
+    line-height: 70px;
+  }
+
+  .showcase .showcase-title p {
+    max-width: 100%;
+  }
+
+  .showcase .showcase-slider {
+    padding-top: 40px;
+  }
+
+  .showcase button.slick-arrow {
+    top: -55%;
+  }
+
+  .showcase .showcase-slider .slick-track .item h6 {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+
+  .logo_sec .logo_big_arrow {
+    display: none;
+  }
+
+  .history-sec {
+    margin-top: 40px;
+    padding: 50px 0 120px;
+  }
+
+  .history-sec .history-cycle {
+    bottom: -120px;
+  }
+
+  .history-sec .sec-title {
+    margin-bottom: 0px;
+  }
+
+  .history-sec .sec-title h6 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+
+  .history-sec .sec-title h6 span {
+    font-size: 68px;
+    line-height: 72px;
+  }
+
+  footer.footer-main .foo_txt {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  footer.footer-main .foo_social_ico {
+    margin-bottom: 20px;
+  }
+
+  footer.footer-main .copyright_wrapper {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+
+
+  /* career page */
+  .career_bg_wrap h1 span:first-child {
+    font-size: 54px;
+    line-height: 79px;
+  }
+
+  .career_bg_wrap h1 span:last-child {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .career_bg_wrap {
+    margin-left: 10px;
+  }
+
+  .career_bg_wrap h4 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .looking_wrap h2 span {
+    font-size: 78px;
+    line-height: 106px;
+    padding-right: 14px;
+  }
+
+  .looking_wrap h2 {
+    font-size: 45px;
+    line-height: 51px;
+    padding-bottom: 28px;
+  }
+
+  .looking_wrap p {
+    max-width: 672px;
+  }
+
+  .looking {
+    padding: 115px 0 92px;
+  }
+
+  .culture_innr h2 {
+    font-size: 45px;
+    line-height: 62px;
+  }
+
+  .cult_icon_txt p {
+    max-width: 193px;
+  }
+
+  .cult_icon_inr_img::before {
+    height: 100px;
+    width: 100px;
+  }
+
+  .cult_icon_inr_img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cult_icon_inr_img::after {
+    left: 68px;
+  }
+
+  .cult_icon_img::after {
+    top: 66px;
+    left: -11px;
+  }
+
+  .culture_icon_wrp li:nth-child(even) .cult_icon_inr_img::after {
+    left: 88px;
+  }
+
+  .cult_icon_txt p {
+    font-size: 15px;
+  }
+
+  .cult_icon_txt h5 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 11px;
+  }
+
+  .for_you_inr h2 {
+    font-size: 45px;
+    line-height: 51px;
+    padding-bottom: 54px;
+  }
+
+  .abt .abt_txt {
+    margin-top: 160px;
+    font-size: 75px;
+    letter-spacing: -2px;
+    line-height: 83px;
+    display: block;
+    margin-left: -13px;
+    transform: translateY(20px);
+}
+
+.abt .abt_txt_wrapper {
+  max-width: 100%;
+  font-size: 53px;
+  letter-spacing: -2px;
+  line-height: 65px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Playfair Display";
+}
+
+  .for_you_inr span {
+    font-size: 78px;
+    line-height: 106px;
+  }
+
+  .for_you_inr {
+    padding-bottom: 59px;
+  }
+
+  .for_you_inner_text h4::after {
+    left: 259px;
+    bottom: -33px;
+  }
+
+  .for_you_slide {
+    padding-top: 56px;
+  }
+
+  .for_you {
+    padding: 77px 0 96px;
+  }
+
+  .view_open_wrap_hdng h2 {
+    font-size: 45px;
+    line-height: 51px;
+  }
+
+  .view_open_wrap_hdng {
+    padding-bottom: 67px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .home-banner .banner-content h6 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 0;
+  }
+
+  .home-banner .banner-content h1 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .home-banner .banner-content h1 span.common-fnt {
+    font-size: 70px;
+    line-height: 75px;
+  }
+
+  .comp_info .company_subimg_wrapper {
+    right: -22%;
+    bottom: -60%;
+    max-width: 450px;
+}
+
+.abt .abt_txt{
+  margin-top: 130px;
+}
+.abt .abt_side_txt{
+  margin-top: 50px;
+}
+.abt {
+  padding-bottom: 100px;
+}
+
+  .home-banner .banner-content h1 span.bnnr-cntn {
+    margin-left: 55px;
+  }
+
+  .home-banner .banner-content a.banner-btn {
+    margin: 10px 0 0 50px;
+  }
+
+  .comp_info .logo_arrow{
+    display: none;
+  }
+
+  .logo_sec {
+    margin-top: 80px;
+  }
+
+  .logo_sec .our_logo_wrapper{
+    display: block;
+    padding: 90px 30px;
+  }
+  .logo_sec .our_logo_wrapper .right_info {
+    margin-left: 0;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+.logo_sec .our_logo_wrapper .right_info::after {
+  right: 50%;
+  bottom: -46%;
+}
+
+
+  .apparel {
+    padding: 50px 0 40px;
+  }
+
+  .apparel .apparel-title h6 {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+  .apparel .apparel-title h5 {
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 35px;
+  }
+
+  .apparel .apparel-title h5 span {
+    font-size: 50px;
+    padding: 0 10px 0px 15px;
+  }
+
+  .apparel .apparel-wrap:nth-child(even) .apparel-content-wrapper .img-wrap::after {
+    display: none;
+  }
+
+  .apparel .apparel-wrap .apparel-content-wrapper figcaption {
+    padding: 20px 0;
+  }
+
+  .apparel .apparel-wrap:first-child .apparel-content-wrapper .img-wrap::before {
+    right: -41%;
+  }
+
+  .commitment .top-arrow {
+    display: none;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h5 {
+    padding: 30px 0 10px;
+    font-size: 16px;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .history-sec::before {
+    display: none;
+  }
+
+  .history-sec .sec-title h6 span {
+    display: inline;
+    margin-left: -20px;
+  }
+
+  .history-sec .history-slider figure {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .history-sec .history-slider figcaption {
+    padding: 30px 0 30px 30px;
+  }
+
+  .history-sec button.slick-arrow {
+    bottom: unset;
+    left: unset;
+    right: 35px;
+    top: -8%;
+  }
+
+  .history-sec button.slick-arrow.slick-next {
+    left: unset;
+    right: 0;
+  }
+
+  footer.footer-main {
+    padding: 40px 0 40px;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap {
+    padding: 15px 20px;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap {
+    grid-template-columns: auto max-content;
+  }
+
+  footer.footer-main .copyright_wrapper {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  footer.footer-main .copyright_wrapper p.text-md-right {
+    padding-top: 10px;
+  }
+
+  footer.footer-main .copyright_wrapper span {
+    margin: 0 5px;
+  }
+
+  /* career page */
+  .carrer_banner {
+    padding: 106px 0 101px;
+  }
+
+  .looking_wrap h2 span {
+    font-size: 60px;
+    line-height: 71px;
+  }
+
+  .looking_wrap h2 {
+    font-size: 35px;
+    line-height: 46px;
+    padding-bottom: 21px;
+  }
+
+  .looking {
+    padding: 70px 0 60px;
+  }
+
+  .culture_innr h2 {
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+  }
+
+  .culture_innr h6 {
+    text-align: center;
+  }
+
+  .culture_icon_wrp {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .cult_icon_inr_img {
+    margin: 0 auto;
+  }
+
+  .cult_icon_img::after {
+    top: 66px;
+    left: 202px;
+  }
+
+  .cult_icon_inr_img::after {
+    left: 283px;
+  }
+
+  .culture_icon_wrp li:nth-child(even) .cult_icon_inr_img::after {
+    left: 299px;
+    height: 43px;
+    width: 51px;
+  }
+
+  .cult_icon_txt p {
+    max-width: inherit;
+  }
+
+  .cult_icon_txt {
+    max-width: inherit;
+    text-align: center;
+  }
+
+  .for_you_inr h2 {
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .for_you_inr span {
+    font-size: 60px;
+    line-height: 71px;
+  }
+
+  .view_open_wrap_hdng h2 {
+    font-size: 35px;
+    line-height: 46px;
+
+  }
+
+  .view_open_wrap_hdng {
+    padding-bottom: 50px;
+  }
+
+  .view_open_wrap_left {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .basic-btn {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 15px;
+  }
+
+  .commitment .content-wrap h5 {
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+
+  .apparel .apparel-wrap .apparel-content-wrapper .img-wrap::after {
+    display: none;
+  }
+
+  .apparel .apparel-wrap:first-child .apparel-content-wrapper .img-wrap::before {
+    display: none;
+  }
+  .comp_info .company_img_wrapper{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .difference-sec .difference-wrapper .sec-title h2 {
+    font-size: 27px;
+    line-height: 43px;
+    padding-bottom: 0px;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h2 span {
+    font-size: 65px;
+  }
+
+  .difference-sec .difference-wrapper .sec-title h5 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap {
+    text-align: center;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption p {
+    min-height: auto;
+    margin: 15px 0;
+  }
+
+  .difference-sec .difference-wrapper .card-wrap figcaption {
+    padding: 20px 40px 30px 40px;
+  }
+  .news-sec .news-title {
+    padding-bottom: 20px;
+}
+  .news-sec .news-title h6 {
+    font-size: 35px;
+}
+.news-sec .blog-sec .blog-wrap figcaption h6{
+  font-size: 18px;
+}
+.news-sec .blog-sec .blog-wrap figcaption p{
+  font-size: 13px;
+}
+.news-sec .blog-sec .blog-wrap figcaption a {
+  font-size: 14px;
+}
+  .testimonial {
+    padding: 50px 0;
+  }
+
+  .testimonial h5 {
+    font-size: 25px;
+  }
+
+  .testimonial .testimonial-slider {
+    padding-top: 20px;
+  }
+
+  .testimonial .testimonial-slider .item .slider-content {
+    padding: 20px 15px 20px 15px;
+  }
+
+  footer.footer-main .foo_menu_wrapper {
+    padding-top: 15px;
+  }
+
+  footer.footer-main .foo_menu_wrapper h5 {
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 20px;
+  }
+
+  footer.footer-main .foo_menu_wrapper h6 {
+    padding-bottom: 25px;
+  }
+
+  footer.footer-main .foo_menu_wrapper ul li {
+    padding-bottom: 15px;
+  }
+
+  footer.footer-main .foo_menu_wrapper ul li a {
+    font-size: 15px;
+  }
+
+  footer.footer-main .foo_txt {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  /* career page */
+  .career_bg_wrap h1 span:first-child {
+    font-size: 42px;
+    line-height: 59px;
+  }
+
+  .career_bg_wrap h1 span:last-child {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .carrer_banner {
+    padding: 73px 0 88px;
+  }
+
+  .career_bg_button .career_bg_btn {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 16px 26px;
+  }
+
+  .looking_wrap h2 {
+    font-size: 30px;
+    line-height: 42px;
+    padding-bottom: 12px;
+  }
+
+  .looking_wrap h2 span {
+    font-size: 50px;
+    line-height: 57px;
+  }
+
+  .looking_wrap h6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .looking {
+    padding: 68px 0 46px;
+  }
+
+  .culture {
+    padding: 64px 0;
+  }
+
+  .culture_innr h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .culture_innr {
+    padding-bottom: 33px;
+  }
+
+  .cult_icon_img::after {
+    top: 68px;
+    left: 201px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .cult_icon_inr_img::after {
+    left: 291px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .culture_icon_wrp li:nth-child(even) .cult_icon_inr_img::after {
+    left: 294px;
+  }
+
+  .for_you_inr h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .for_you_inr span {
+    font-size: 50px;
+    line-height: 57px;
+  }
+
+  .for_you_inner_text h4::after {
+    left: 91px;
+    bottom: -33px;
+  }
+
+  .for_you_inner_wrp {
+    padding: 42px 15px;
+  }
+
+  .for_you_inner_text h4 {
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  .for_you_inner_text::before {
+    background-size: 35px;
+  }
+
+  .for_you_inner_text h4::after {
+    background-size: 35px;
+  }
+
+  .for_you {
+    padding: 67px 0 77px;
+  }
+
+  .view_open_wrap_hdng h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+
+  .career_bg_button {
+    bottom: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sec-hdr nav .menu-wrap {
+    padding-top: 80px;
+  }
+  .comp_info .company_subimg_wrapper{
+    right: -22%;
+    bottom: -55%;
+    left: 50%;
+  }
+  .sec-hdr nav .nav-button i {
+    font-size: 25px;
+  }
+  .abt .abt_txt_wrapper {
+    max-width: 100%;
+    font-size: 45px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    margin-left: 5px;
+}
+.abt .abt_txt {
+  margin-top: 80px;
+}
+
+.abt .abt_txt {
+  margin-top: 70px;
+  font-size: 64px;
+  letter-spacing: -2px;
+  line-height: 74px;
+  display: block;
+  margin-left: 0px;
+  transform: translateY(20px);
+}
+
+.comp_info .comp_txt {
+  font-size: 65px;
+  letter-spacing: -2px;
+  line-height: 73px;
+  display: block;
+  margin-left: -20px;
+  transform: translateY(10px);
+}
+
+.comp_info .comp_txt_wrapper {
+  font-size: 54px;
+  margin-top: 150px;
+  letter-spacing: -2px;
+  line-height: 60px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  margin-left: 40px;
+  margin-right: 70px;
+}
+
+.comp_info .comp_sub_txt_wrapper {
+  margin-left: 42px;
+  margin-right: 0;
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 35px;
+}
+
+  .sec-hdr .header-wrap .nav_bar .menu-wrap li {
+    padding: 15px 25px;
+  }
+
+  .sec-hdr .header-wrap .hdr-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .sec-hdr .header-wrap {
+    padding: 30px 0;
+  }
+
+  .testimonial .testimonial-slider .item .slider-content figcaption h6 {
+    font-size: 16px;
+    padding: 15px 0 5px;
+  }
+
+  .testimonial .testimonial-slider .item .slider-content figcaption .ratings {
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 10px;
+  }
+
+  .testimonial .testimonial-slider .item .slider-content figcaption {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .testimonial .testimonial-slider .item .slider-content figcaption .ratings i {
+    font-size: 14px;
+  }
+
+  footer.footer-main .foo_menu_wrapper ul li a {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap .input-btn-wrap {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap .input-btn-wrap::before {
+    font-size: 13px;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap {
+    padding: 10px 15px;
+  }
+
+  footer.footer-main .foo_menu_wrapper form .form-wrap input[type="email"]::placeholder {
+    font-size: 13px;
+  }
+
+  /* carrer page */
+  .career_bg_wrap h1 span:first-child {
+    font-size: 38px;
+    line-height: 53px;
+    top: -40px;
+  }
+
+  .career_bg_wrap h1 span:last-child {
+    font-size: 30px;
+    line-height: 42px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  /* career page */
+  .career_bg_wrap h1 span:first-child {
+    font-size: 39px;
+    line-height: 46px;
+    left: -13px;
+  }
+
+  .looking_wrap h2 {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 12px;
+  }
+
+  .looking_wrap h6 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .looking_wrap h2 span {
+    font-size: 40px;
+    line-height: 49px;
+  }
+
+  .looking_wrap p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .culture_innr h6 span {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .looking {
+    padding: 44px 0 38px;
+  }
+
+  .culture_innr h6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .culture_innr h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .cult_icon_inr_img::after {
+    left: 221px;
+  }
+
+  .cult_icon_img::after {
+    top: 68px;
+    left: 138px;
+  }
+
+  .culture_icon_wrp li:nth-child(even) .cult_icon_inr_img::after {
+    left: 228px;
+  }
+
+  .culture_icon_wrp li:nth-child(even) .cult_icon_img::after {
+    left: 148px;
+  }
+
+  .for_you_inr h2 {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 28px;
+  }
+
+  .for_you_inr span {
+    font-size: 40px;
+    line-height: 49px;
+  }
+
+  .comp_info .comp_txt_wrapper {
+    font-size: 45px;
+    margin-top: 150px;
+    letter-spacing: -2px;
+    line-height: 55px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-left: 40px;
+    margin-right: 70px;
+}
+.comp_info .comp_txt {
+  font-size: 55px;
+  letter-spacing: -2px;
+  margin-left: -20px;
+  line-height: 60px;
+}
+
+.comp_info .comp_sub_txt_wrapper {
+  font-size: 23px;
+  line-height: 30px;
+}
+.logo_sec .our_logo_wrapper .left-txt_info h3>span {
+  font-size: 60px;
+  letter-spacing: -2px;
+  line-height: 70px;
+}
+
+.logo_sec .our_logo_wrapper .left-txt_info p {
+  padding-top: 70px;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+  .culture {
+    padding: 36px 0;
+  }
+
+  .for_you {
+    padding: 48px 0 50px;
+  }
+
+  .for_you_inr p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .for_you_inr {
+    padding-bottom: 37px;
+  }
+
+  .for_you_inner_text h4 {
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 0;
+  }
+
+  .for_you_inner_text::before {
+    background-size: 28px;
+    top: -8px;
+  }
+
+  .for_you_inner_text h4::after {
+    background-size: 28px;
+    left: 133px;
+    bottom: -34px;
+  }
+
+  .view_open_wrap_hdng {
+    padding-bottom: 30px;
+  }
+
+  .view_open_wrap_hdng h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .view_open_wrap_left h4 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .view_open_wrap_right p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .view_open_wrap_right ul li {
+    font-size: 15px;
+    line-height: 31px;
+  }
+
+  .view_open_wrap_right ul li::after {
+    height: 8px;
+    width: 8px;
+    left: -22px;
+  }
+
+  .view_open_wrap_right {
+    padding: 41px 0 42px 47px;
+  }
+
+  .highlight li {
+    padding-bottom: 26px;
+  }
+
+  .career_bg_wrap h4 {
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+  .career_bg_button .career_bg_btn {
+    padding: 13px 18px;
+  }
+
+  .for_you_slide .slick-dots li {
+    width: 22px;
+    height: 5px;
+    margin: 0 3px;
+  }
+
+  .for_you_slide .slick-dots {
+    bottom: -51px;
+  }
+
+  .cult_icon_inr_img img {
+    max-width: 38px;
+  }
+
+  .view_open {
+    padding-bottom: 64px;
+  }
+
+  .cult_icon_txt p {
+    max-width: 368px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 393px) {
+
+  /* career */
+  .culture_icon_wrp li:nth-child(even) .cult_icon_inr_img::after {
+    left: 212px;
+  }
+
+  .culture_icon_wrp li:nth-child(even) .cult_icon_img::after {
+    left: 128px;
+  }
+
+  .cult_icon_img::after {
+    top: 68px;
+    left: 124px;
+  }
+
+  .cult_icon_inr_img::after {
+    left: 207px;
+  }
+}
+
+@media (max-width: 380px) {
+  footer.footer-main .copyright_wrapper {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  /* career page */
+  .for_you {
+    padding: 45px 0 54px;
+  }
+
+  .for_you_inner_text {
+    max-width: 748px;
+    padding-left: 16px;
+  }
+
+  .for_you_inner_text::before {
+    left: -17px;
+  }
+
+  .for_you_inner_text h4 {
+    font-size: 15px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 340px) {
+  .career_bg_wrap h1 span:first-child {
+    top: -25px;
+    left: 0;
+    font-size: 31px;
+  }
+
+  .career_bg_wrap h1 span:last-child {
+    left: -64px;
+    top: 8px;
+  }
+
+  .career_bg_wrap h4 {
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 5px;
+  }
+}
